@@ -1,0 +1,66 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="{% static 'portfolio/css/styles.css' %}">
+</head>
+<body>
+    <div class="navbar">
+      <a href="/">Home</a>
+      <a href="/about">About Me</a>
+      <a href="/work">My Work</a>
+      <a href="/contact">Contact</a>
+    </div>
+
+    <div class="container">
+      <header class="header">
+        <h1>About Me</h1>
+        <img src="{% static 'images/profile.JPG' %}" alt="Jordan Thompson" style="width:300px; height:auto; display:block; margin: 0 auto;">
+      </header>
+
+      <section class="bio">
+        <h2>Biography</h2>
+        <p>
+          Hello, I’m Jordan Thompson, 29, and a former Gunner's Mate in the US Navy, 
+          proudly serving for five years with a tenure stationed in Japan. During my 
+          military service, I developed a keen interest in computer sciences through 
+          my experience with advanced weapon systems. This curiosity blossomed into 
+          a passionate pursuit in the realm of cybersecurity and networking.
+        </p>
+        <p>
+          My military background has instilled a disciplined and methodical approach to 
+          both my studies and projects, shaping me into a reliable and dedicated professional. 
+          I am deeply committed to integrating technology, security, and community engagement 
+          into my work, continuously striving to enrich my projects with these elements.
+        </p>
+      </section>
+
+      <section class="skills">
+        <h2>Skills & Achievements</h2>
+        <ul>
+          <li>Proficient in Python, SQL, VMware, and socket programming.</li>
+          <li>Capable in various computer science fundamentals including algorithms and debugging.</li>
+          <li>Consistently evolving my skills through self-teaching to adapt to the dynamic field of computer sciences.</li>
+          <li>My personal skills are complemented by a robust foundation in teamwork, leadership, and strategic communication.</li>
+        </ul>
+      </section>
+
+      <section class="interests">
+        <h2>Interests</h2>
+        <p>
+          Beyond the confines of technology, I have a zest for travel and exploring diverse cultures, 
+          appreciating the unique perspectives each one offers. I relish opportunities to engage with 
+          people face-to-face, enriching my appreciation of life away from the digital screens.
+        </p>
+      </section>
+    </div>
+
+    <footer class="footer">
+      <p>Looking to connect or learn more? Feel free to reach out through my contact page.</p>
+      <a href="/contact" class="btn">Contact Me</a>
+    </footer>
+</body>
+</html>

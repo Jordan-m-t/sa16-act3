@@ -1,0 +1,50 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Work</title>
+    <link rel="stylesheet" href="{% static 'portfolio/css/styles.css' %}">
+</head>
+<body>
+    <div class="navbar">
+      <a href="/">Home</a>
+      <a href="/about">About Me</a>
+      <a href="/work">My Work</a>
+      <a href="/contact">Contact</a>
+    </div>
+
+    <div class="container">
+      <header class="header">
+        <h1>My Work</h1>
+        <p>Here are some of the projects I've worked on that illustrate my skills and areas of interest.</p>
+      </header>
+
+      <section class="project">
+        <h2>TigerTech: Student Activities & Social Platform</h2>
+        <p>Collaboratively designed and developed an interactive web platform to enhance student engagement on campus using Ruby on Rails. 
+           TigerTech serves as a central hub where students can sign up, connect with friends, and discover diverse clubs and activities tailored to their interests.
+           The website features a user-friendly interface for real-time messaging, club search functionality, and local dining in the area,
+           fostering a vibrant community atmosphere and promoting extracurricular participation. Our agile development approach and iterative testing ensured a robust
+           application that supports students in maximizing their campus experience.</p>
+      </section>
+
+      <section class="project">
+        <h2>UniChat: A Real-Time University Chat Application</h2>
+        <p>Developed a server-client based application aimed at facilitating real-time communication among university students. 
+           Utilizing socket programming in Python, UniChat allows users to connect to a chat room, send and receive messages in real-time, 
+           and engage in dynamic discussions. The project involved creating both server and client-side scripts to handle multiple client connections, 
+           manage user interactions, and ensure smooth data transmission. This project not only honed my skills in network programming but 
+           also provided practical experience in developing real-time communication tools, demonstrating a deep understanding of the underlying network 
+           protocols and client-server architecture.</p>
+      </section>
+
+    </div>
+
+    <footer class="footer">
+      <p>Interested in discussing these projects or seeing more of my work? Please reach out!</p>
+      <a href="/contact" class="btn">Contact Me</a>
+    </footer>
+</body>
+</html>

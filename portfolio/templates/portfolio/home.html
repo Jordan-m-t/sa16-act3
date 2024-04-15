@@ -1,0 +1,58 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="{% static 'portfolio/css/styles.css' %}"> 
+</head>
+<body>
+    <div class="navbar">
+      <a href="/">Home</a>
+      <a href="/about">About Me</a>
+      <a href="/work">My Work</a>
+      <a href="/contact">Contact</a>
+    </div>
+
+    <div class="container">
+      <header class="header">
+        <h1>Welcome to My Portfolio</h1>
+        <p>I'm Jordan Thompson, a Senior at the University of Memphis</p>
+      </header>
+
+      <section class="introduction">
+        <h2>About Me</h2>
+        <p>
+          I am deeply interested in networking and cybersecurity. I find my passion in tackling
+          challenges within cybersecurity, far more than in general web development.
+        </p>
+        <a href="/about" class="btn">Learn More</a>
+      </section>
+
+      <section class="expertise">
+        <h2>Professional Expertise</h2>
+        <ul>
+          <li>Adaptability in the face of adversity</li>
+          <li>Flexibility and strategic planning</li>
+          <li>Teamwork and leadership</li>
+          <li>Dedication and strong communication skills</li>
+        </ul>
+      </section>
+
+      <section class="call-to-action">
+        <h2>Explore My Work</h2>
+        <p>
+          Take a look at my projects to see how I apply my skills in real-world scenarios.
+        </p>
+        <a href="/work" class="btn">View My Projects</a>
+      </section>
+    </div>
+
+    <footer class="footer">
+      <p>Thank you for visiting my portfolio. Let's connect!</p>
+      <a href="/contact" class="btn">Contact Me</a>
+    </footer>
+</body>
+</html>
